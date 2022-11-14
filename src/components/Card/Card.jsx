@@ -42,7 +42,7 @@ const Card = ({item, handleCount, viewSelected}) => {
                         <img src={item.img} alt="" />
                         <h4>{item.name} <span>({item.gender})</span></h4>
                     </div>
-                    <p>{item.price * item.count}</p>
+                    <p>Precio: {item.price * item.count}</p>
                 </div>
             )
         }
